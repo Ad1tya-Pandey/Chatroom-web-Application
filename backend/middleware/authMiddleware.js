@@ -1,13 +1,27 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/userModel");
 const asyncHandler = require("express-async-handler");
+const caller = require("../../helpers/caller");
 
 const protect = asyncHandler(async (req, res, next) => {
   let token;
 
+  let publicUrls = [
+    "http://localhost:5000/api/user/login",
+    "http://localhost:5000/api/user/",
+  ];
+  let currentUrl = `${req.protocol}://${req.get("host")}${req.originalUrl}`;
+  var Protected;
+  if (publicUrls.includes(currentUrl)) {
+    Protected = false;
+  } else {
+    Protected = true;
+  }
+  let notPublic = currentUrl in publicUrls;
   if (
     req.headers.authorization &&
-    req.headers.authorization.startsWith("Bearer")
+    req.headers.authorization.startsWith("Bearer") &&
+    Protected
   ) {
     try {
       token = req.headers.authorization.split(" ")[1];
@@ -19,12 +33,17 @@ const protect = asyncHandler(async (req, res, next) => {
 
       next();
     } catch (error) {
-      res.status(401);
-      throw new Error("Not authorized, token failed");
+      //   res.status(401);
+
+      //   throw new Error("Not authorized, token failed");
+      caller(req, res, "Not authorized, token failed", 401);
     }
   }
+  if (Protected === false) {
+    next();
+  }
 
-  if (!token) {
+  if (!token && Protected) {
     res.status(401);
     throw new Error("Not authorized, no token");
   }

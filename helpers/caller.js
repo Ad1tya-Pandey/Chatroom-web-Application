@@ -1,6 +1,6 @@
 function caller(req, res, message, statusCode = 200) {
   Message = message;
 
-  res.json(Message).status(200);
+  res.status(statusCode).json(Message);
 }
 module.exports = caller;

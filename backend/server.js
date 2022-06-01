@@ -11,6 +11,7 @@ const logger = require("./config/logger");
 const app = express();
 const caller = require("../helpers/caller");
 const chatRoutes = require("./routes/chatRoutes");
+const { protect } = require("./middleware/authMiddleware");
 
 dotenv.config();
 
@@ -18,11 +19,13 @@ app.use(express.json());
 
 connectDB();
 
-//creating first express api---------------------
+//creating first express api---------------------http://localhost:5000/api/user/login
 app.get("/", (req, res) => {
-  caller(req, res, "testing");
+  const fullUrl = `${req.protocol}://${req.get("host")}${req.originalUrl}`;
+  res.send(fullUrl);
 });
-//res.send("api is running");
+
+app.use(protect);
 
 //routes which should handle the requests------------
 app.use("/api/user", userRoutes);
@@ -46,45 +49,10 @@ app.use((error, req, res, next) => {
   });
 });
 
-// Error Handling middlewares
-// app.use(notFound);
-// app.use(errorHandler);
-
-// // to get chat info
-// app.get("/api/chat", (req, res) => {
-//   res.json(chats);
-// });
-
-// app.get("/api/chat/:id", (req, res) => {
-//   // console.log(req.params.id);
-//   const singlechat = chats.find((c) => c._id === req.params.id);
-//   res.send(singlechat);
-//   // console.log(req);
-// });
-
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   logger.info(`server has started on port: ${PORT}`);
 });
-
-/* winston and joi validation
-    for login purposes
-    handle invalid or malicious data use http reqs
-    validation and failure, sending same response as per bad data , server error etc.*/
-
-//----------CORS handling , CORS is a security mechanism enforced by the browser--------------
-// app.use((req, res, next) => {
-//   res.header("Access-Control-Allow-Origin", "*"); //allowing all origins to access api
-//   //   res.header("Access-Control-Allow-Headers", "*"); // can be used to restrict the types of header incoming
-//   //   if (req.method === "OPTIONS") {
-//   //     res.header(
-//   //       "Access - Control - Allow - Methods",
-//   //       " PUT, POST, PATCH, DELETE, GET"
-//   //     ); //restricting the http methods
-//   //     return res.status(200).json({});
-//   //   }
-//   next;
-// });
-
-// NODE_ENV , use it... for dev production testing
-//and local
+//repository to process the code (chat, repository), common func for sending response , make all the required routes
+// protected using logic in if block with a array
+//nodejs process manager pm2,uncaught exception of process

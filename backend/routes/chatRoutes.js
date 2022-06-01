@@ -9,7 +9,6 @@ const {
 } = require("../controllers/chatController");
 const { protect } = require("../middleware/authMiddleware");
 const router = express.Router();
-//router.get(accessChat);
 router.route("/").post(protect, accessChat);
 router.route("/").get(protect, fetchChats); // would get all of the chats from db for that user
 router.route("/group").post(protect, createGroupChat);
