@@ -81,7 +81,6 @@ const registerUser = asyncHandler(async (req, res) => {
 });
 
 const authUser = asyncHandler(async (req, res) => {
-  console.log("works");
   const { email, password } = req.body;
 
   validator(authSchema, req, res);

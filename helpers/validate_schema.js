@@ -1,5 +1,6 @@
 const joi = require("joi");
 const logger = require("../backend/config/logger");
+const caller = require("./caller");
 const authSchema = joi.object({
   email: joi.string().email().lowercase().required(),
   password: joi.string().min(4).required(),
@@ -16,7 +17,8 @@ async function validator(validationSchema, req, res) {
     // for validation using joi
   } catch (error) {
     logger.warn(` entered invalid data format with respect to fields`);
-    res.status(400).json({ error: error.message });
+    // res.status(400).json({ error: error.message });
+    caller(req, res, error.message, 400);
     return;
   }
 }

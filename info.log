@@ -547,3 +547,133 @@
 {"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-01T15:32:38.814Z"}
 {"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-01T15:32:41.019Z"}
 {"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-01T15:32:48.830Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T05:11:56.213Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T05:15:09.560Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:15:17.098Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:15:19.414Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T05:25:52.276Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:25:59.461Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T05:29:51.010Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:30:15.006Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:30:17.190Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:38:29.443Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"6297850180d2e7b46948d8c0\"),\n  name: 'dummy',\n  email: 'dummy@gmail.com',\n  password: '$2a$10$8O0I/zlEVML1RPNTXLiZc.cPc/9UUBWYKx01z9NvB36LUtJ9MINiO',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T15:25:53.025Z,\n  updatedAt: 2022-06-01T15:25:53.025Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:38:30.582Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:38:39.167Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:57:39.580Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T05:58:04.577Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T06:57:20.685Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T07:10:35.937Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T07:10:39.114Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T07:10:40.633Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T07:10:41.742Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T07:11:53.903Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:33:33.172Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:38:21.059Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:41:51.069Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:44:40.011Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:46:18.647Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:46:20.523Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:50:54.061Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:50:57.177Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:51:10.417Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:51:52.135Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:52:24.615Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:52:44.102Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:53:24.904Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:53:48.385Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:53:58.747Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:53:58.747Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:53:58.754Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:03.136Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:03.136Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:54:03.145Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:04.615Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:04.615Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:54:04.619Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:32.789Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:32.790Z"}
+{"level":"info","message":" {\n  name: 'yuma',\n  email: 'yodagmail.com',\n  password: '$2a$10$g.NtEYAuiqRQuwE2CCmxGu2kzWjyZ1NEtL6Pu8vmoilIGcpOp2wwy',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  _id: new ObjectId(\"6298a4f8fe18da47e2cce787\"),\n  createdAt: 2022-06-02T11:54:32.802Z,\n  updatedAt: 2022-06-02T11:54:32.802Z,\n  __v: 0\n} has created a new account Successfully","timestamp":"2022-06-02T11:54:32.995Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:34.612Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:34.612Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:35.565Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:35.566Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:36.409Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:36.409Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:42.396Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:54:42.396Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:55:32.969Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:55:32.969Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:56:08.355Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T11:56:17.772Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:57:53.513Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T11:58:00.897Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:22.315Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:22.315Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:58:22.347Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:31.518Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:31.518Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:58:31.539Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:43.911Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:43.911Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:58:43.927Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:45.043Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T11:58:45.043Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T11:58:45.081Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T11:59:11.667Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T11:59:15.440Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has typed invalid email or password","timestamp":"2022-06-02T12:00:13.327Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:00:21.259Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:01:11.843Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:03:22.221Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T12:04:17.636Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T12:04:17.636Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:04:30.967Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:12:30.352Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:15:06.241Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:15:35.783Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:16:37.227Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:16:51.328Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:19:52.604Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T12:19:59.178Z"}
+{"level":"warn","message":" entered invalid data format with respect to fields","timestamp":"2022-06-02T12:19:59.179Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:20:04.974Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:21:21.649Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:21:51.190Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:25:27.017Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:25:54.081Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:26:29.276Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:26:37.834Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:26:57.384Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:27:33.295Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:27:50.249Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:28:22.747Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:29:18.621Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:31:25.942Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:31:27.786Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:32:00.505Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:32:17.834Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:36:00.786Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:36:30.756Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:36:47.889Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:36:50.105Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:36:51.848Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:39:05.439Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:39:15.310Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:39:19.989Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:40:06.327Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:43:26.190Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:44:27.470Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:45:25.257Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"629758678f6861ce1ffb6aef\"),\n  name: 'yoda',\n  email: 'yoda@gmail.com',\n  password: '$2a$10$HD4sOQFo3iCaydLMfaITS.OyRP8jIeVqSjL1wbNnkORrsaIhmX2hG',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-06-01T12:15:35.802Z,\n  updatedAt: 2022-06-01T12:15:35.802Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:47:34.941Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T12:47:46.599Z"}
+{"level":"info","message":" null has typed invalid email or password","timestamp":"2022-06-02T12:47:51.327Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:48:02.481Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:49:50.043Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:49:51.086Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:53:03.323Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:Error: write EPIPE","timestamp":"2022-06-02T12:53:03.325Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:Error: write EPIPE","timestamp":"2022-06-02T12:53:03.325Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-02T12:54:29.654Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:54:30.549Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T03:13:27.409Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-03T03:13:27.823Z"}
