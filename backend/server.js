@@ -10,6 +10,8 @@ const logger = require("./config/logger");
 const app = express();
 const caller = require("../helpers/caller");
 const chatRoutes = require("./routes/chatRoutes");
+const messageRoutes = require("./routes/messageRoutes");
+
 const { protect } = require("./middleware/authMiddleware");
 
 dotenv.config();
@@ -29,6 +31,7 @@ app.use(protect);
 //routes which should handle the requests------------
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
+app.use("/api/message", messageRoutes);
 
 process.on("uncaughtException", (err) => {
   console.error("There was an uncaught error", err);
@@ -56,3 +59,11 @@ app.listen(PORT, () => {
 //repository to process the code (chat, repository), common func for sending response , make all the required routes
 // protected using logic in if block with a array
 //nodejs process manager pm2,uncaught exception of process
+
+// project management , skills , should know how to manage the project, add on: git &github , jira, kebana ,make poc of what you are learning
+
+//----task///
+// uptime robot to check the server is up or not
+//heap memory case check , jmetre - usefull for stress testing , auto delete logs
+
+// to start pm2 : pm2 start npm --name "server.js" -- start

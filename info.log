@@ -677,3 +677,71 @@
 {"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-02T12:54:30.549Z"}
 {"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T03:13:27.409Z"}
 {"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-03T03:13:27.823Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T03:57:07.587Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-03T03:57:50.674Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T04:09:13.242Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T04:10:11.912Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T04:11:34.589Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T04:25:49.386Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T04:42:33.642Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T11:56:45.549Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:13:23.526Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:13:48.395Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:14:11.251Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:29:00.757Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:32:41.139Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:33:36.998Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:33:50.798Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:34:08.349Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:34:18.910Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:34:18.910Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:34:18.910Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:36:21.894Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:36:29.141Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:36:29.141Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:36:29.141Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:39:54.867Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:40:07.069Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:42:18.263Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:42:18.264Z"}
+{"level":"error","message":"there was an uncaught exception in  session, error:MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","timestamp":"2022-06-03T12:42:18.264Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:42:39.294Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:45:39.211Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:49:58.018Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:51:13.775Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:53:43.051Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:54:07.491Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:54:23.796Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T12:56:36.688Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:02:26.072Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:03:07.763Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:04:54.445Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:06:49.183Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:07:12.173Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:09:01.630Z"}
+{"level":"info","message":" {\n  _id: new ObjectId(\"628a36ee5320ad45cfbcbb84\"),\n  name: 'test',\n  email: 'test@gmail.com',\n  password: '$2a$10$hbKVoeMkyhW72p2wuibJLOAoX3xyqCq9uDKe99peYYsClU5GRAJ0K',\n  pic: 'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',\n  createdAt: 2022-05-22T13:13:18.891Z,\n  updatedAt: 2022-05-22T13:13:18.891Z,\n  __v: 0\n} has successfully logged in ","timestamp":"2022-06-03T13:10:32.714Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:11:20.856Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:11:49.361Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:31:01.875Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:31:27.818Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:31:39.780Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:33:10.410Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T13:33:20.921Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:09:36.255Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:11:25.521Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:12:09.915Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:13:58.232Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:16:11.481Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:16:21.583Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:25:41.654Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:27:23.596Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:27:58.129Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:38:31.871Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:39:26.959Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:40:20.646Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:45:34.399Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:47:18.779Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:47:21.955Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:49:19.803Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:49:50.834Z"}
+{"level":"info","message":"server has started on port: 5000","timestamp":"2022-06-03T14:50:36.629Z"}

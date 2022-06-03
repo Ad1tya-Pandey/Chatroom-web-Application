@@ -23,7 +23,6 @@ const allUsers = asyncHandler(async (req, res) => {
     : {};
   //except the current logged in user return what's been found for every other user
   const users = await User.find(keyword).find({ _id: { $ne: req.user._id } });
-  //res.send(users);
   caller(req, res, users);
 });
 
@@ -33,16 +32,12 @@ const registerUser = asyncHandler(async (req, res) => {
   validator(registerUserSchema, req, res);
 
   if (!name || !email || !password) {
-    // res.status(400);
-    // res.json({ error: "Please Enter all the fields" });
     caller(req, res, "Please Enter all the fields", 400);
   }
 
   const userExists = await User.findOne({ email });
 
   if (userExists) {
-    //   res.status(400);
-    //   res.json({ error: "User already exists" });
     caller(req, res, "User already exists", 400);
   }
 
@@ -56,14 +51,6 @@ const registerUser = asyncHandler(async (req, res) => {
   if (user) {
     logger.info(` ${user} has created a new account Successfully`);
 
-    // res.status(201).json({
-    // _id: user._id,
-    // name: user.name,
-    // email: user.email,
-    // isAdmin: user.isAdmin,
-    // pic: user.pic,
-    // token: generateToken(user._id),
-    // });
     caller(
       req,
       res,
@@ -74,8 +61,7 @@ const registerUser = asyncHandler(async (req, res) => {
     );
   } else {
     logger.error(` ${user} was not able to create account`);
-    // res.status(400);
-    // res.json({ warn: "user can't be created" });
+
     caller(req, res, "user can't be created", 400);
   }
 });
@@ -88,14 +74,6 @@ const authUser = asyncHandler(async (req, res) => {
   const user = await User.findOne({ email });
   console.log(user);
   if (user && (await user.matchPassword(password))) {
-    // res.json({
-    //   _id: user._id,
-    //   name: user.name,
-    //   email: user.email,
-    //   isAdmin: user.isAdmin,
-    //   pic: user.pic,
-    //   token: generateToken(user._id),
-    // });
     caller(
       req,
       res,
@@ -107,8 +85,7 @@ const authUser = asyncHandler(async (req, res) => {
     logger.info(` ${user} has successfully logged in `);
   } else {
     logger.info(` ${user} has typed invalid email or password`);
-    // res.status(401);
-    // res.json({ error: "Invalid Email or Password" });
+
     caller(req, res, "Invalid Email or Password", 401);
   }
 });

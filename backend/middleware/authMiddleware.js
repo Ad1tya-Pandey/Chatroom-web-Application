@@ -17,7 +17,6 @@ const protect = asyncHandler(async (req, res, next) => {
   } else {
     Protected = true;
   }
-  let notPublic = currentUrl in publicUrls;
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith("Bearer") &&
@@ -33,9 +32,6 @@ const protect = asyncHandler(async (req, res, next) => {
 
       next();
     } catch (error) {
-      //   res.status(401);
-
-      //   throw new Error("Not authorized, token failed");
       caller(req, res, "Not authorized, token failed", 401);
     }
   }

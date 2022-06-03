@@ -13,8 +13,6 @@ const accessChat = asyncHandler(async (req, res) => {
   const { userId } = req.body;
 
   if (!userId) {
-    // console.log("UserId param not sent with request");
-    // return res.sendStatus(400);
     caller(req, res, "UserId param not sent with request", 400);
   }
 
@@ -35,7 +33,6 @@ const accessChat = asyncHandler(async (req, res) => {
   });
 
   if (isChat.length > 0) {
-    //res.send(isChat[0]);
     caller(req, res, isChat[0]);
   } else {
     var chatData = {
@@ -50,11 +47,8 @@ const accessChat = asyncHandler(async (req, res) => {
         "users",
         "-password"
       );
-      // res.status(200).json(FullChat);
       caller(req, res, FullChat);
     } catch (error) {
-      // res.status(400);
-      // throw new Error(error.message);
       caller(req, res, error.message, 400);
     }
   }
@@ -72,28 +66,21 @@ const fetchChats = asyncHandler(async (req, res) => {
           path: "latestMessage.sender",
           select: "name pic email",
         });
-        // res.status(200).send(results);
         caller(req, res, results);
       });
   } catch (error) {
-    // res.status(400);
-    // throw new Error(error.message);
     caller(req, res, error.message, 400);
   }
 });
 
 const createGroupChat = asyncHandler(async (req, res) => {
   if (!req.body.users || !req.body.name) {
-    // return res.status(400).send({ message: "Please Fill all the feilds" });
     return caller(req, res, "Please Fill all the feilds", 400);
   }
 
   var users = JSON.parse(req.body.users); //parsing stringify array into json
 
   if (users.length < 2) {
-    // return res
-    //   .status(400)
-    //   .send("More than 2 users are required to form a group chat");
     caller(
       req,
       res,
@@ -116,11 +103,8 @@ const createGroupChat = asyncHandler(async (req, res) => {
       .populate("users", "-password")
       .populate("groupAdmin", "-password");
 
-    // res.status(200).json(fullGroupChat);
     caller(req, res, fullGroupChat);
   } catch (error) {
-    // res.status(400);
-    // throw new Error(error.message);
     caller(req, res, error.message, 400);
   }
 });
@@ -141,11 +125,8 @@ const renameGroup = asyncHandler(async (req, res) => {
     .populate("groupAdmin", "-password");
 
   if (!updatedChat) {
-    // res.status(404);
-    // throw new Error("Chat Not Found");
     caller(req, res, "Chat NOt Found", 400);
   } else {
-    // res.json(updatedChat);
     caller(req, res, updatedChat);
   }
 });
@@ -168,11 +149,8 @@ const removeFromGroup = asyncHandler(async (req, res) => {
     .populate("groupAdmin", "-password");
 
   if (!removed) {
-    // res.status(404);
-    // throw new Error("Chat Not Found");
-    // caller(req, res, "chat not found", 400);
+    caller(req, res, "chat not found", 400);
   } else {
-    // res.json(removed);
     caller(req, res, "removed");
   }
 });
@@ -195,8 +173,6 @@ const addToGroup = asyncHandler(async (req, res) => {
     .populate("groupAdmin", "-password");
 
   if (!added) {
-    // res.status(404);
-    // throw new Error("Chat Not Found");
     caller(req, res, "Chat Not Found", 400);
   } else {
     res.json(added);
