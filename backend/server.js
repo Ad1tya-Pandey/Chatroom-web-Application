@@ -5,8 +5,10 @@ const connectDB = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
-const { notFound, errorHandler } = require("./middlewares/errorMiddleware");
 const { path } = require("express/lib/application");
+const caller = require("./helpers/caller");
+const logger = require("./config/logger");
+const { protect } = require("./middlewares/authMiddleware");
 
 const app = express();
 dotenv.config();
@@ -15,12 +17,33 @@ connectDB();
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  //solely for test purpose , dummy api
   res.send("API is running..");
 });
+app.use(protect);
 
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
+
+process.on("uncaughtException", (err) => {
+  console.error("There was an uncaught error", err);
+  logger.error(`there was an uncaught exception in  session, error:${err}`);
+  process.exit(1); // mandatory (as per the Node.js docs)
+});
+
+//error handling-----------------------------------
+
+app.use((req, res, next) => {
+  const error = new Error("Not found ");
+  error.status = 404;
+  next(error);
+});
+
+// comment in order to make validator func work
+app.use((error, req, res, next) => {
+  caller(req, res, error.message, error.status || 500);
+});
 
 // --------------------------deployment------------------------------
 
@@ -41,8 +64,8 @@ if (process.env.NODE_ENV === "production") {
 
 // --------------------------deployment------------------------------
 
-app.use(notFound);
-app.use(errorHandler);
+// app.use(notFound);
+// app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
@@ -87,3 +110,4 @@ io.on("connection", (socket) => {
     socket.leave(userData._id);
   });
 });
+//joi,winston,common res,val schema func,repo logic  ,common middleware
